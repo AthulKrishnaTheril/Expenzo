@@ -1,4 +1,4 @@
-Expenzo
+
 Expenzo is a simple and intuitive expense tracking application built with HTML, CSS, and JavaScript. It helps users log expenses with descriptions and amounts, making it easy to track spending habits.
 
 Features
