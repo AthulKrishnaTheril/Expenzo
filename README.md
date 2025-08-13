@@ -1,12 +1,42 @@
-# React + Vite
+Expenzo
+Expenzo is a simple and intuitive expense tracking application built with HTML, CSS, and JavaScript. It helps users log expenses with descriptions and amounts, making it easy to track spending habits.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features
+Add and manage expenses with descriptions and amounts.
 
-Currently, two official plugins are available:
+Clean, responsive design.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Simple and fast data entry.
 
-## Expanding the ESLint configuration
+Technologies Used
+HTML5 – Structure and content.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+CSS3 – Styling and layout.
+
+JavaScript (ES6) – Functionality and interactions.
+
+Installation & Setup
+Clone the repository:
+
+bash
+Copy
+Edit
+git clone https://github.com/YourUsername/Expenzo.git
+Open the project folder in your code editor.
+
+Run using a local server or open index.html in a browser.
+
+Usage
+Enter the expense amount and description.
+
+Click Add Expense to log the entry.
+
+Roadmap
+Add category filters.
+
+Implement data storage with localStorage or database.
+
+Provide expense analytics and charts.
+
+License
+This project is licensed under the MIT License.
