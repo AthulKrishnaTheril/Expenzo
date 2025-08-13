@@ -1,0 +1,129 @@
+/* General Reset and Background */
+* {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background-color: #1a1a1a;
+  color: white;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+}
+
+nav h1 {
+  color: #00b894;
+  font-size: 2rem;
+  margin: 0;
+  position: relative;
+  top: -10px; /* Moves the logo up */
+}
+
+nav a {
+  color: #00b894; /* Same color as logo */
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Balance Section */
+.balance-section {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.balance-section h2 {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.balance-section .balance {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white; /* Current balance in white */
+}
+
+/* Edit Budget Button */
+button {
+  background-color: #00b894;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  color: white;
+  display: block;
+  margin: 10px auto;
+}
+
+button:hover {
+  background-color: #009e7a;
+}
+
+/* Input Fields */
+input {
+  padding: 10px;
+  border-radius: 8px;
+  border: 2px solid #00b894;
+  margin: 10px;
+  width: 200px;
+  background-color: #1a1a1a;
+  color: white;
+}
+
+input:focus {
+  outline: none;
+  border-color: rgba(0, 255, 200, 0.8);
+  box-shadow: 0 0 8px rgba(0, 255, 200, 0.5);
+}
+
+/* Expenses Section */
+.expenses-section {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.expenses-section h2 {
+  color: #00b894;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.expense-item {
+  background-color: transparent;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px auto;
+  max-width: 500px;
+  text-align: left;
+  border-left: 4px solid #00b894;
+}
+
+/* Make amount debited red */
+.expense-item .amount {
+  color: #e74c3c;
+  font-weight: bold;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin: 30px 0;
+  font-size: 0.9rem;
+  color: white;
+}
